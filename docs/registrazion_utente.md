@@ -35,3 +35,11 @@ Visualizzazione dati su Raspberry con NodeRed (slide 46 in poi):
 Passo 1: Adesso tramite Putty, dopo il riavvio digitiamo node-red-start;
 Passo 2: Per proseguire bisogna andare al link presente nelle slide;
 Passo 3: Poi immettiamo le impostazioni del sito;
+
+
+Esp32 con MicroPython
+Passo 1:  ci connettiamo tramite putty alla raspberry;
+Passo 2: colleghiamo l'Esp 32 alla raspberry;
+Passo 3: digitiamo sudo apt-get update, sudo apt-get install python-pip, sudo pip3 instal asptool;
+Passo 4: per testare il funzionamento digitiamo: dmesg grep tty USB, esptool.py--port/dev/ttyUSB0 flash_id;
+Passo 5: 
